@@ -5,10 +5,18 @@ Write a program that rolls two dice, prints the outcome, and then uses condition
 2/9.2026
 """
 
+import random
+
 #Challenge: Extend your program to include a while loop that continues to roll the dice and print the term until the user decides to quit.
 
 #Use the random module Print the value of each individual die and the total value of the roll.
+dice_roll1: int = random.randint(1,6)
+dice_roll2: int = random.randint(1,6)
+
 #Print the value of each individual die and the total value of the roll.
+print(f"First Dice Roll: {dice_roll1}")
+print(f"Second Dice Roll: {dice_roll2}")
+print(f"Total: {dice_roll1 + dice_roll2}")
 #Use if->elif->else conditional statements to check the roll and print the correct term, you may also need to use complex conditionals using 'AND', 'OR', and 'not'  for every variabtion in the role to match the correct terms
 #Pay close attention to the table.  Some terms are vased on the total, while others are based on specific die values (e.g., "Little Joe").
 """
