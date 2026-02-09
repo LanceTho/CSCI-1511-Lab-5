@@ -37,23 +37,51 @@ Use this table:
 """
 if(dice_roll1 == 1 and dice_roll2 == 1):
     print("Snake Eyes")
-if((dice_roll1 == 1 and dice_roll2 == 2) or (dice_roll1 == 2 and dice_roll2 == 1)):
+
+if(dice_roll1 == 1 and dice_roll2 == 2):
     print("Ace Caught a Deuce")
+elif(dice_roll1 == 2 and dice_roll2 == 1):
+    print("Ace Caught a Deuce")
+
 if(dice_roll1 == 2 and dice_roll2 == 2):
     print("Little Joe from Kokomo")
-if((dice_roll1 == 1 and dice_roll2 == 4) or (dice_roll1 == 4 and dice_roll1 == 1) or (dice_roll1 == 2 and dice_roll1 == 3) or (dice_roll1 == 3 and dice_roll1 == 2)):
+
+if(dice_roll1 == 1 and dice_roll2 == 4):
     print("Little Phoebe")
+elif(dice_roll1 == 4 and dice_roll2 == 1):
+    print("Little Phoebe")
+elif(dice_roll1 == 2 and dice_roll2 == 3):
+    print("Little Phoebe")
+elif(dice_roll1 == 3 and dice_roll2 == 2):
+    print("Little Phoebe")
+
 if(dice_roll1 == 3 and dice_roll2 == 3):
     print("Jimmy Hicks from the Sticks")
-if((dice_roll1 == 6 and dice_roll2 == 1) or (dice_roll1 == 1 and dice_roll2 == 6)):
+
+if(dice_roll1 == 6 and dice_roll2 == 1):
     print("Six Ace")
+elif(dice_roll1 == 1 and dice_roll2 == 6):
+    print("Six Ace")
+
 if(dice_roll1 == 4 and dice_roll2 == 4):
     print("Eighter from Deactur")
-if((dice_roll1 == 3 and dice_roll2 == 6) or (dice_roll1 == 6 and dice_roll1 == 3) or (dice_roll1 == 5 and dice_roll1 == 4) or (dice_roll1 == 4 and dice_roll1 == 5)):
+
+if(dice_roll1 == 3 and dice_roll2 == 6):
     print("Nina from Pasadena")
+elif(dice_roll1 == 6 and dice_roll2 == 3):
+    print("Nina from Pasadena")
+elif(dice_roll1 == 5 and dice_roll2 == 4):
+    print("Nina from Pasadena")
+elif(dice_roll1 == 4 and dice_roll2 == 5):
+    print("Nina from Pasadena")
+
 if(dice_roll1 == 5 and dice_roll2 == 5):
     print("Puppy Paws")
-if((dice_roll1 == 5 and dice_roll2 == 6) or (dice_roll1 == 6 and dice_roll1 == 5)):
+
+if(dice_roll1 == 5 and dice_roll2 == 6):
     print("Six Five no Jive")
+elif((dice_roll1 == 6 and dice_roll2 == 5)):
+    print("Six Five no Jive")
+
 if(dice_roll1 == 6 and dice_roll2 == 6):
     print("Boxcars")
