@@ -2,7 +2,7 @@
 Lab5_LanceTho-1.py
 Lance Thongsavanh
 Write a program that rolls two dice, prints the outcome, and then uses conditional statements to print the appropriate term for that roll based on the table below.
-2/9.2026
+2/10/2026
 """
 
 import random
